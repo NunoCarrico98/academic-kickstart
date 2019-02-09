@@ -4,10 +4,10 @@ widget = "projects"  # Do not modify this line!
 active = true  # Activate this widget? true/false
 
 title = "Projects"
-subtitle = ""
+subtitle = "Games"
 
 # Order that this section will appear in.
-weight = 50
+weight = 2
 
 # Content.
 # Display content from the following folder.
@@ -36,17 +36,21 @@ filter_default = 0
 # To show all items, set `tag` to "*".
 # To filter by a specific tag, set `tag` to an existing tag name.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
-# [[filter]]
-#   name = "All"
-#   tag = "*"
-#
-# [[filter]]
-#   name = "Deep Learning"
-#   tag = "Deep Learning"
-#
-# [[filter]]
-#   name = "Other"
-#   tag = "Demo"
+[[filter]]
+  name = "All"
+  tag = "*"
+
+[[filter]]
+  name = "C#"
+  tag = "C#"
+
+[[filter]]
+  name = "Unity"
+  tag = "Unity"
+
+#[[filter]]
+ # name = "Other"
+ # tag = "C++, Unreal, OpenGL"
 
 +++
 

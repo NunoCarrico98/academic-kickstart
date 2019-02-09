@@ -28,11 +28,11 @@ logo = ""
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
 highlight = true
 # highlight_languages = ["r"]  # Add support for highlighting additional languages
-# highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
+highlight_style = "vs2015"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
 # Enable global LaTeX math rendering?
 #   If false, you can enable it locally on a per page basis.
-math = false
+math = true
 
 # Privacy pack
 #   Show a cookie consent message to visitors
@@ -43,7 +43,7 @@ privacy_pack = false
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
 date_format = "Jan 2, 2006"
 #   Examples: "3:04 pm" or "15:04"
-time_format = "3:04 PM"
+time_format = "15:04"
 
 ############################
 ## Contact Widget setup   ##
@@ -63,10 +63,12 @@ appointment_url = ""
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/NCarrico_Dev"},
-#  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
+  {icon = "twitter", icon_pack = "fab", name = "NCarrico_Dev", link = "https://twitter.com/NCarrico_Dev"},
+  {icon = "facebook", icon_pack = "fab", name = "Nuno Carriço", link = "https://www.facebook.com/nuno.carrico.90"},
+ # {icon = "discord", icon_pack = "fab", name = "NCHammer#3790"},
+ # {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
  # {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
-#  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
+ # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
 
@@ -127,7 +129,7 @@ sharing = true
 [publications]
   # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "January 2006"
+  date_format = "2 January, 2006"
 
   # Citation style ("apa" or "mla")
   citation_style = "apa"
@@ -139,9 +141,9 @@ sharing = true
   #   2: Compact
   #   3: Card
   #   4: Citation (publications only)
-  post_view = 2
-  publication_view = 2
-  talk_view = 2
+  post_view = 1
+  publication_view = 1
+  talk_view = 1
 
 # Search.
 [search]
